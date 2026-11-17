@@ -24,7 +24,7 @@ Ophyn.new({
     Discord = "true",
     Website = "false",
     KeySystem = {
-        URL = "https://auth.hungquan99.lol/key/jkt4pi0x0cax5r",
+        URL = "https://auth.hungquan99.lol/key/s9utevj1zcwfmv",
         SaveKey = true,
         Key = function(key)
             local result = api.check_key(key)
@@ -39,4 +39,3 @@ Ophyn.new({
         loadstring(game:HttpGet("https://auth.hungquan99.lol/v1/loaders/bethebiggeststreamer.lua"))()
     end,
 })
-
